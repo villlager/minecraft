@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Minecraft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://example.com/herobrine-background.jpg') no-repeat center center/cover;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .section {
+            margin-bottom: 30px;
+
+        }
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать в мир Minecraft</h1>
+        
+        <div class="section">
+            <h2>О Minecraft</h2>
+            <p>Minecraft — это популярная песочница, созданная Mojang в 2009 году. В игре игроки исследуют бесконечные миры, строят структуры и выживают в суровых условиях.</p>
+        <p>Minecraft (произн. Майнкрафт; от англ. mine — «шахта; добывать» + craft — «ремесло; создавать») — компьютерная инди-игра в жанре песочницы, созданная шведским программистом Маркусом Перссоном и выпущенная его студией Mojang AB. В 2009 году Перссон опубликовал начальную версию игры; в конце 2011 года была выпущена стабильная версия для компьютеров Windows, Linux и macOS с распространением через официальный сайт. В последующие годы Minecraft была портирована на мобильные устройства под управлением Android, iOS и Windows Phone; на игровые приставки PlayStation 3, PlayStation 4, PlayStation Vita, Xbox 360, Xbox One, New Nintendo 3DS, Nintendo Switch и Wii U; и другие платформы. В 2014 году корпорация Microsoft приобрела права на Minecraft вместе со студией Mojang AB за 2,5 миллиарда долларов.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Игрушки Minecraft</h2>
+            <div>
+                <img src="https://avatars.mds.yandex.net/i?id=1b6c095ce33a5a9a3c1f074b562167e8f56fd81a-4988431-images-thumbs&n=13" alt="Фигурка Стива">
+                <p>Фигурка Стива - 999₽</p>
+                <button class="button">Купить</button>
+            </div>
+            <div>
+                <img src="https://avatars.mds.yandex.net/i?id=5c47af5b255e125db998eda4d9b87e35f4b711ccdacf7a5b-12421862-images-thumbs&n=13" alt="Фигурка Крипера">
+                <p>Фигурка Крипера - 899₽</p>
+                <button class="button">Купить</button>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Полный список команд Minecraft</h2>
+            <ul>
+                <li>/gamemode [0/1/2/3] - изменить игровой режим</li>
+                <li>/give @p minecraft:diamond 64 - получить 64 алмаза</li>
+                <li>/tp [ник] [координаты] - телепортироваться</li>
+                <li>/kill @e[type=zombie] - убить всех зомби</li>
+                <li>/weather clear - очистить погоду</li>
+                <li>/time set day - установить день</li>
+                <li>/effect give @p minecraft:speed 100 2 - ускорение</li>
+                <li>/help — вывод в чате всех доступных консольных команд игры; </li>
+              <li>/give — выдаёт нужный блок или предмет; </li>
+<li>/kill — убивает моба, игрока или сущность;</li> 
+<li>/seed — даёт зерно мира, которое можно использовать для повторной генерации; </li>
+<li>/tp — телепортирует в нужные координаты; </li>
+<li>/spawnpoint — изменяет точку спавна; </li>
+<li>/setworldspawn — меняет изначальную точку спавна для всех в этом мире; 2</li>
+    <li>/xp — меняет значение опыта; 2</li>
+<li>/summon — спавнит определённого монстра или мирного моба; 2</li>
+<li>/enchant — накладывает зачарование на предметы. 2</li>
+<li>Команды для изменения погоды и времени суток:</li>
+<li>/time — меняет время в мире; 2</li>
+<li>/weather — изменяет погоду; 2</li>
+<li>/toggledownfall — альтернативный способ изменения погоды. 2</li>
+<h1>Команды для изменения сложности и режима игры:</h1>
+<li>/gamerule — даёт возможность редактировать игровые правила; 2</li>
+<li>/difficulty — изменяет сложность в игре; 2</li>
+<li>/defaultgamemode — устанавливает один из игровых режимов по умолчанию. 2</li>
+<li>Команды для общения в чате:</li>
+<li>/tell — пишет выбранному пользователю в личные сообщения; 2</li>
+<li>/say — отправляет сообщение всем игрокам; 2</li>
+<li>/me — позволяет писать от третьего лица. 2</li>
+<p>Команды для взаимодействия с блоками:</p>
+<li>/replaceitem — заменяет блок или предмет; 2</li>
+<li>/fill — заполняет свободное место блоками; 2</li>
+<li>/setblock — спавнит на координатах выбранный блок; 2</li>
+<li>/locate — показывает координаты ближайшей структуры или биома. </li>
+<p>Технические команды</p>
+<li>/execute — универсальная функция для командных блоков, предназначенная для выполнения других операций; 2</li>
+<li>/function — даёт доступ к набору функций; 2</li>
+<li>/data — заменяет данные для определённых функций и предметов; 2</li>
+<li>/datapack — помогает установить датапаки; 2</li>
+<li>/debug — вызывает отладочное меню; 2</li>
+<li>/reload — делает быструю перезагрузку функциональных возможностей, датапаков и прочего. 2</li>
+<p>Чтобы применить команду, нужно вызвать консоль: нажать клавишу «/» — откроется окно чата. 3</p>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
